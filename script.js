@@ -15,7 +15,7 @@ async function getMenu() {
             foodCard.classList.add("food-card");
 
              foodCard.innerHTML = `
-                <img src="${rger 1.png}" alt="${item.name}">
+                <img src="${item.imgSrc}" alt="${item.name}">
                 <div class="food-info">
                     <h4>${item.name}</h4>
                     <p>$${item.price.toFixed(2)}/-</p>
@@ -82,4 +82,5 @@ async function startProcess() {
 }
 
 startProcess();
+
 
