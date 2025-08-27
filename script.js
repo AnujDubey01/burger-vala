@@ -6,6 +6,7 @@ async function getMenu() {
 
         const menuDiv = document.querySelector(".menu");
         menuDiv.innerHTML = "<h3> Menu</h3><div class='menu-grid'></div>";
+        
 
         const grid = menuDiv.querySelector(".menu-grid");
 
@@ -82,5 +83,6 @@ async function startProcess() {
 }
 
 startProcess();
+
 
 
