@@ -101,7 +101,9 @@ body, html {
     gap: 20px;
     padding: 20px;
 }
-
+.menu h3 {
+    color: white;
+}
 .food-card {
     position: relative;
     background-color: #1c1c1c;
@@ -165,4 +167,5 @@ body, html {
 
 .add-btn:hover {
     background-color: orangered;
+
 }
